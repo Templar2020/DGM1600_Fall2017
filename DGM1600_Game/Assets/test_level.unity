@@ -288,6 +288,8 @@ GameObject:
   - component: {fileID: 1456213561}
   - component: {fileID: 1456213560}
   - component: {fileID: 1456213564}
+  - component: {fileID: 1456213565}
+  - component: {fileID: 1456213566}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -370,3 +372,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 88ad3e841cff2fc4dbb07f83191d7bc9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1456213565
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1456213559}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b081938ef52de042ad6207b17a297fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stopLight: Purple Rain
+--- !u!114 &1456213566
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1456213559}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88e65774f83d82b43be310ae309c7366, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  valueOne: 1
+  valueTwo: 2
